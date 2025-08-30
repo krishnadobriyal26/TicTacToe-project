@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #1c448e;
+  text-align: center;
+  font-family: "Story Script";
+  font-weight: 500;
+}
+
+.container{
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center
+
+   
+  
+}
+
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+  font-size: 8vmin;
+  background-color: #5C80BC;
+  color: green;
+  font-family : "Story Script";
+}
+
+#reset-btn{
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #4B2840 ;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+.new-btn{
+   padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #4B2840 ;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+#msg{
+  color: #EFCA08;
+  font-size: 5vmin ;
+}
+
+.msg-container{
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide{
+  display: none;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  
+  font-family: "arial";
+  
+
+}
+.headscontainer{
+  
+  
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+.heads{
+  background-color: #a8e0ff;
+  width: 450px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 1rem;
+
+}
